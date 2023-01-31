@@ -5,9 +5,9 @@ function App() {
   let person = prompt("Please Enter Your Name");
 let text;
 if (person === null || person === "") {
-  text = "Naam likh Apna Shabash";
+  text = "You Hav'nt Enter Your Name";
 } else {
-  text = "Haan " + person + "! Kesa Hai Bharwe?";
+  text = "Hello " + person + "! How Are You?";
 };
   return (
     <>
